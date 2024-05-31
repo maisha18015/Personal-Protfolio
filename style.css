@@ -1,0 +1,44 @@
+:root{
+    --background-color: #03001C;
+    --font-primary-color: white;
+}
+body{
+    background-color: var(--background-color);
+}
+/* .header{
+    background-color: var(--background-color);
+} */
+.nav{
+    display: flex;
+    gap: 55px;
+}
+.nav-logo{
+    margin-left: 150px;
+}
+.nav-item{
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    color: var(--font-primary-color);
+}
+.nav-btn{
+    height: 40px;
+    width: 150px;
+    margin-top: 9px;
+    margin-right: 100px;
+    border: #b0bcced5;
+    background-color: #b0bcced5;
+    color: var(--font-primary-color);
+}
+
+
+
+
+
+
+
+/* @media only screen and (min-width: 200px) and (max-width: 576px){
+    .nav{
+        font-size: 15px;
+    }
+} */
