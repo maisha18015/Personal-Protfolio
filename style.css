@@ -1,6 +1,7 @@
 :root{
     --background-color: #03001C;
     --font-primary-color: white;
+    --btn-primary-color: #b0bcced5;
 }
 body{
     background-color: var(--background-color);
@@ -26,11 +27,41 @@ body{
     width: 150px;
     margin-top: 9px;
     margin-right: 100px;
-    border: #b0bcced5;
-    background-color: #b0bcced5;
+    border: var(--btn-primary-color);
+    background-color: var(--btn-primary-color);
     color: var(--font-primary-color);
 }
-
+.banaer-item{
+    margin-top: 35px;
+    display: flex;
+}
+.banaer-text{
+    color: var(--font-primary-color);
+    margin-left: 150px;
+}
+.banaer-p{
+    display: flex;
+    gap: 5px;
+}
+.banaer-icon{
+    margin-top: 10px;
+    font-size: 16px
+}
+.me-btn{
+   border:  rgb(83, 83, 83);
+   background-color: white;
+   border-radius: 30px;
+   padding: 18px;
+}
+.pro-btn{
+    border: 1px solid var(--btn-primary-color) ;
+    background-color: var(--btn-primary-color);
+    color: var(--font-primary-color);
+    border-radius: 30px;
+    margin-right: 20px ;
+    padding: 15px;
+    
+}
 
 
 
