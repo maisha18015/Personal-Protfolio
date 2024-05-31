@@ -84,6 +84,19 @@ body{
     border-bottom: 1px solid gray;
     justify-content: space-between;
 }
+.awards-side{
+    color: var(--font-primary-color);
+    justify-content: center;
+    display:flex;
+    margin-top: 100px;
+}
+.awards-text{
+    background-color: black;
+    margin-top: 60px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
 
 
 
