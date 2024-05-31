@@ -59,8 +59,19 @@ body{
     color: var(--font-primary-color);
     border-radius: 30px;
     margin-right: 20px ;
-    padding: 15px;
-    
+    padding: 15px;   
+}
+.about-side{
+    color: var(--font-primary-color);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.about-text{
+    margin-left: 150px;
+}
+.about-years{
+    margin-right: 100px;
 }
 
 
