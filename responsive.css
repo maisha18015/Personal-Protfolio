@@ -1,0 +1,60 @@
+@media only screen and (max-width: 640px){
+    .nav-item{
+        flex-direction: column;
+        padding: 5px;
+        
+    }
+    .nav{
+        display: block;
+        gap: 25px;
+        justify-content: center;
+        text-align: center;
+    }
+    .nav-btn{
+        margin-right: -20px;
+    }
+    .banaer-item{
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+   
+    .banaer-text{
+        margin-left: 15px;
+    }
+
+    .about-side{
+       flex-direction: column;   
+       align-items: center;
+       text-align: start;
+     }
+     .about-text{
+        margin-left: 20px;
+    }
+    .experience-side{
+       flex-direction: column;
+      
+    }
+    .content-experience{
+        padding: -20px;
+
+    }
+    .protfoilo-contant{
+        display: grid;
+        grid-template-columns: auto;
+        
+    }
+    .protfolio-texts{
+      font-size: 10px;
+    }
+  
+    .first-img{
+
+        margin-left: -130px;
+    }
+    .contact-menu{
+        width: 600px;
+        margin-left: -130px;
+    }
+} 
+    
