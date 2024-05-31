@@ -73,6 +73,17 @@ body{
 .about-years{
     margin-right: 100px;
 }
+.experience-side{
+    color: var(--font-primary-color);
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.timing{
+    display: flex;
+    border-bottom: 1px solid gray;
+    justify-content: space-between;
+}
 
 
 
