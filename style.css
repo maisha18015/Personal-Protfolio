@@ -122,7 +122,34 @@ body{
 .protfoilo-contant img{
     width: 500px;
 }
-
+.contact-menu{
+    color: var(--font-primary-color);
+    margin-top: 30px;
+    padding: 100px;
+}
+.contact-item{
+    background-color: #01035e3d;
+    padding: 50px;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.info{
+    border-bottom: 1px solid gray;
+    width: 400px;
+    padding: 10px;
+}
+.info-item{
+    margin-left: 50px;
+}
+.contact-btn{
+    color: var(--font-primary-color);
+    background-color: var(--btn-primary-color);
+    border: #b0bcced5;
+    padding: 10px;
+}
 
 
 
